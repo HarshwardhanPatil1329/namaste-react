@@ -1,3 +1,18 @@
+/**
+ *
+ * <div id="parent">
+ *      <div id="child">
+ *         <h1>I'm h1 tag</h1>
+ *         <h2>I'm h1 tag</h2>
+ *      </div>
+ * <div id="child2">
+ *         <h1>I'm h1 tag</h1>
+ *         <h2>I'm h1 tag</h2>
+ *      </div>
+ * </div>
+ *
+ * ReactElement(Object) => HTML(Browser Understands)
+ */
 const parent =React.createElement("div",
         {id:"parent"},
         [
@@ -10,7 +25,7 @@ const parent =React.createElement("div",
                 React.createElement("h2",{},"Nested H2 Tag")
                 ])
         ]
-)
+) 
 
 
 
